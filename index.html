@@ -19,22 +19,22 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<header>
+    <header>
 
-    <!-- Top Header Flex -->
-    <section class="topFlex">
+        <!-- Top Header Flex -->
+        <section class="topFlex">
 
             <ul class="topLeftFlex test">
                 <li id="hbMar">| | |</li>
                 <li id="srchMar">&#128269;</li>
             </ul>
 
-   
+
             <ul class="topCenterFlex">
                 <li>U.S.</li>
                 <li>INTERNATIONAL</li>
@@ -45,21 +45,21 @@
 
 
             <ul class="topRightFlex">
-                <li>SUBSCRIBE FOR EUR 0.50/WEEK</li>
-                <li>LOG IN</li>
+                <li id="subButton">SUBSCRIBE FOR EUR 0.50/WEEK</li>
+                <li id="loginButton">LOG IN</li>
             </ul>
-     
-    </section>
+
+        </section>
 
         <!-- Middle Header Flex -->
         <section class="middleFlex">
 
             <ul class="middleLeftFlex test">
-                <li>Wednesday, March 15, 2023</li>
-                <li>Today's Paper</li>
+                <li id="dayDate">Wednesday, March 15, 2023</li>
+                <li id="dayDateSub">Today's Paper</li>
             </ul>
 
-   
+
             <ul class="middleCenterFlex">
                 <li id="nyText">The New York Times</li>
             </ul>
@@ -69,16 +69,22 @@
                 <li>
                     <ul class="weatherFlex">
                         <li id="weatherMar">&#9728;&#65039;</li>
+                        <li id="currTemp">22&#176;</li>
                         <li id="maxTemp">22&#176;</li>
                         <li id="minTemp">7&#176;</li>
-                    </ul> </li>
-                <li><ul class="stockFlex">
-                    <li id="stockName">S&P</li>
-                    <li id="stockPercent">2.5% &#8595;</li>
-                </ul></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="stockFlex">
+                        <li id="stockName">S&P</li>
+                        <li id="stockPercent">2.5% &#8595;</li>
+                    </ul>
+                </li>
             </ul>
-     
-    </section>
+
+        </section>
+
+        <hr id="midBottomSeperator">
 
         <!-- Bottom Header Flex -->
         <section class="bottomFlex">
@@ -107,10 +113,11 @@
 
             </ul>
 
- 
-    </section>
 
-</header>
+        </section>
+        <hr id="hrTop">
+        <hr id="hrBottom">
+    </header>
 </body>
 
 </html>
