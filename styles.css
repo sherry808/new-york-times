@@ -202,8 +202,9 @@ hr{
 }
 
 .left{
-    background-color: mediumpurple;
+    /* background-color: mediumpurple; */
     width:70% ;
+    padding-right: 10;
 }
 
 div.page.left{
@@ -216,39 +217,49 @@ background-color: mediumspringgreen;
 width: 30%;
 }
 
-.news-block-1-left{
+.news-block-left-big-pic{
     display: flex;
     flex-direction: row;
     margin-top: 10px;
     margin-left: 1px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
 }
 
 .nb1-left{
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 60%;
+   
 }
 
 .nb1-left-1{
     display: flex;
     flex-direction: column;
-   
+    border-bottom: 1px solid lightgrey;
 }
 
 
 .nb1-right{
 display: flex;
-width: 75%;
-margin-left: 20px;
+width: 60%;
+justify-content: flex-end;
+margin-right: 20px;
 }
 
 /* .big-news-img{
     display: flex;
     justify-content:flex-end ;
 } */
+
+.news-image{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 .news-image img{
-    width: 581.85px;
-    height:347.9px;
+    width: 500px;
+    height:300px;
 }
 
 
@@ -268,18 +279,61 @@ li {
     font-size: 0.8rem;
     margin-top: 5px;
     color: grey;
+    margin-bottom: 10px;
 }
 
 .big-title {
     font-family: 'Cardo', serif;
 font-weight: bolder;
 font-size: 1.5rem;
+
 }
 
 .med-title{
     font-family: 'Cardo', serif;
     font-weight: bold;
     font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.news-snippet{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    margin-top: 10px;
+    
+}
+
+.news-block-1-1-left{
+    display: flex;
+
 }
 
 
+.ll{
+    display:flex;
+    flex-direction: column;
+}
+
+.rr{
+    display: flex;
+    flex-direction: column;
+}
+
+.nb1-double-l{
+    display: flex;
+    width: 100%;
+}
+
+.news-section-end{
+    border-bottom: 1px solid black;
+}
+
+/* news item 2 */
+.news-block-2-left{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 1px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+}
