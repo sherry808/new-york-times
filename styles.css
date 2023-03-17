@@ -50,15 +50,14 @@ header {
   display: flex;
   width: 33.3%;
   justify-content: flex-end;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bolder;
   font-size: 0.8rem;
 }
 
-
-#loginButton{
-    margin-left: 10px;
-    margin-right: 5px;
+#loginButton {
+  margin-left: 10px;
+  margin-right: 5px;
 }
 
 .middleFlex {
@@ -78,40 +77,40 @@ header {
   /* margin-left: 10px; */
 }
 
-#dayDate{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+#dayDate {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
 }
 
-#dayDateSub{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: lighter;
+#dayDateSub {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
 }
 
 .middleFlex li {
   list-style: none;
 }
 
-#currTemp{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 0.8rem;
-    font-weight: bolder;
-    margin-left: 15px;
+#currTemp {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 0.8rem;
+  font-weight: bolder;
+  margin-left: 15px;
 }
 
 #maxTemp {
-    font-size: 0.7rem;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+  font-size: 0.7rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
 
   margin-top: 2px;
   margin-left: 15px;
 }
 
 #minTemp {
-    font-size: 0.7rem;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: lighter;
+  font-size: 0.7rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
   margin-left: 5px;
   margin-top: 2px;
 }
@@ -165,14 +164,13 @@ header {
 .stockFlex {
   display: flex;
   list-style: none;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 0.9rem;
-
 }
 
-#stockPercent{
-    margin-left: 22px;
-    color: maroon;
+#stockPercent {
+  margin-left: 22px;
+  color: maroon;
 }
 
 .sectionFlex {
@@ -187,64 +185,63 @@ ul {
   padding: 0;
 }
 
-hr{
-    border: 0.5px solid black;
-    border-bottom: 0;
+hr {
+  border: 0.5px solid black;
+  border-bottom: 0;
 }
 
-.main-page-flex{
-    display: flex;
-    /* grid-column: (8.5fr 3.5fr); */
+.main-page-flex {
+  display: flex;
+  /* grid-column: (8.5fr 3.5fr); */
 }
 
-.page{
-    float: left;
+.page {
+  float: left;
 }
 
-.left{
-    /* background-color: mediumpurple; */
-    width:70% ;
-    padding-right: 10;
+.left {
+  /* background-color: mediumpurple; */
+  width: 70%;
+  padding-right: 15px;
 }
 
-div.page.left{
-    border-right: 1px solid white;
+div.page.left {
+  border-right: 1px solid white;
 }
 
-.right{
-    border: 2px;
-background-color: mediumspringgreen;
-width: 30%;
+.right {
+  border: 2px;
+  background-color: mediumspringgreen;
+  width: 30%;
 }
 
-.news-block-left-big-pic{
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-    margin-left: 1px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid lightgrey;
+.news-block-left-big-pic {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 1px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgrey;
 }
 
-.nb1-left{
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-   
+.nb1-left {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding-right: 10px;
 }
 
-.nb1-left-1{
-    display: flex;
-    flex-direction: column;
-    border-bottom: 1px solid lightgrey;
+.nb1-left-1 {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid lightgrey;
 }
 
-
-.nb1-right{
-display: flex;
-width: 60%;
-justify-content: flex-end;
-margin-right: 20px;
+.nb1-right {
+  display: flex;
+  width: 60%;
+  justify-content: flex-end;
+  margin-right: 20px;
 }
 
 /* .big-news-img{
@@ -252,88 +249,109 @@ margin-right: 20px;
     justify-content:flex-end ;
 } */
 
-.news-image{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+.news-image {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
-.news-image img{
-    width: 500px;
-    height:300px;
+.news-image img {
+  width: 500px;
+  height: 300px;
 }
 
+.news-image video {
+  width: 500px;
+  height: 300px;
+}
 
-.news-image-src{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
-    color:grey;
-     font-size: 0.7rem;
-     margin-top: 1px;
+.news-image-src {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  color: grey;
+  font-size: 0.7rem;
+  margin-top: 1px;
 }
 
 li {
-    list-style: none;
-  }
+  list-style: none;
+}
 
 .read-time {
-    font-size: 0.8rem;
-    margin-top: 5px;
-    color: grey;
-    margin-bottom: 10px;
+  font-size: 0.8rem;
+  margin-top: 5px;
+  color: grey;
+  margin-bottom: 10px;
 }
 
 .big-title {
-    font-family: 'Cardo', serif;
-font-weight: bolder;
-font-size: 1.5rem;
-
+  font-family: "Cardo", serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
 }
 
-.med-title{
-    font-family: 'Cardo', serif;
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin-top: 10px;
+.med-title {
+  font-family: "Cardo", serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 10px;
 }
 
-.news-snippet{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: lighter;
-    margin-top: 10px;
-    
+.news-snippet {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: lighter;
+  margin-top: 10px;
 }
 
-.news-block-1-1-left{
-    display: flex;
-
+.news-block-1-1-left {
+  display: flex;
 }
 
-
-.ll{
-    display:flex;
-    flex-direction: column;
+.ll {
+  display: flex;
+  flex-direction: column;
 }
 
-.rr{
-    display: flex;
-    flex-direction: column;
+.rr {
+  display: flex;
+  flex-direction: column;
 }
 
-.nb1-double-l{
-    display: flex;
-    width: 100%;
+.nb1-double-l {
+  display: flex;
+  width: 100%;
 }
 
-.news-section-end{
-    border-bottom: 1px solid black;
+.news-section-end {
+  border-bottom: 1px solid black;
 }
 
 /* news item 2 */
-.news-block-2-left{
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-    margin-left: 1px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid lightgrey;
+.news-block-2-left {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 1px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgrey;
+}
+
+span {
+  margin-right: 10px;
+}
+
+.multiple-items-title {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.multiple-items-title span:first-child {
+  font-weight: bold;
+}
+
+.quote-title {
+  font-family: "Cardo", serif;
+  font-weight: lighter;
+  font-size: 2rem;
+  color: gray;
 }
