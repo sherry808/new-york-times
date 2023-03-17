@@ -1,0 +1,23 @@
+.news-block-right-big-pic {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 1px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+  }
+
+  .news-image-right-scroll-top-main img{
+      width:336px; height:224px;
+  }
+
+  .nb1-right {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-right: 10px;
+  }
+
+  .opinion-col{
+      display: flex;
+  }

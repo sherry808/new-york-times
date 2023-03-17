@@ -3,10 +3,15 @@
   font-size: 0.875rem;
   /* text-size-adjust: 100%; */
 }
+*{
+  /* margin: 0; */
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  max-width: 85%;
+  max-width: 80%;
   margin: 0 auto !important;
-  float: none !important;
 }
 
 header {
@@ -15,6 +20,11 @@ header {
   /* background-color: pink; */
   flex-direction: column;
 }
+
+p {
+  margin: 0;
+}
+
 
 .topFlex {
   display: flex;
@@ -134,7 +144,7 @@ header {
 .middleCenterFlex {
   display: flex;
   justify-content: center;
-  width: 33.3%;
+  width: 100%;
 }
 
 #nyText {
@@ -206,13 +216,14 @@ hr {
 }
 
 div.page.left {
-  border-right: 1px solid white;
+  border-right: 1px solid lightgray;
 }
 
 .right {
   border: 2px;
-  background-color: mediumspringgreen;
+  /* background-color: mediumspringgreen; */
   width: 30%;
+  padding-left: 15px;
 }
 
 .news-block-left-big-pic {
@@ -227,7 +238,7 @@ div.page.left {
 .nb1-left {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 40%;
   padding-right: 10px;
 }
 
@@ -241,7 +252,6 @@ div.page.left {
   display: flex;
   width: 60%;
   justify-content: flex-end;
-  margin-right: 20px;
 }
 
 /* .big-news-img{
@@ -254,14 +264,13 @@ div.page.left {
   flex-direction: column;
   align-items: flex-end;
 }
-.news-image img {
-  width: 500px;
-  height: 300px;
+.news-image-left-scroll-main img {
+  width: 100%
 }
 
+
 .news-image video {
-  width: 500px;
-  height: 300px;
+  width: 100%
 }
 
 .news-image-src {
@@ -302,18 +311,23 @@ li {
   margin-top: 10px;
 }
 
-.news-block-1-1-left {
+.news-block-1-1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
 }
 
 .ll {
   display: flex;
   flex-direction: column;
+  border-right: 1px solid lightgrey ;
+  padding-right: 8px;
 }
 
 .rr {
   display: flex;
   flex-direction: column;
+  padding-left: 8px;
 }
 
 .nb1-double-l {
@@ -352,6 +366,62 @@ span {
 .quote-title {
   font-family: "Cardo", serif;
   font-weight: lighter;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: gray;
+}
+
+.news-block-right-big-pic {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 1px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.news-image-right-scroll-top-main img{
+  width: 100%;
+}
+
+.nb1-right-center {
+  display: flex;
+  flex-direction: column;
+}
+
+.opinion-item{
+  display: flex;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 1px solid lightgray;
+
+}
+
+.opinion-col{
+  display: flex;
+}
+
+.opinion-author{
+  font-family: serif;
+  font-weight: 500;
+  color: gray;
+  padding-bottom: 5px;
+}
+
+.opinion-title{
+  font-family: "Cardo", serif;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+#middleAgeImg{
+  /* border-radius: 50%; */
+  height: 150px;
+  width: 150px;
+}
+
+.opinion-img {
+  object-fit: contain;
+  width: 60px;
+  height: 60px;
+  padding-top: 10px;
 }
